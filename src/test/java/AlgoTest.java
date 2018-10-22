@@ -1,7 +1,12 @@
 package test.java;
 
 import static org.junit.Assert.*;
+
+import org.junit.Assert;
 import org.junit.Test;
+
+//import junit.framework.Assert;
+
 import java.util.Arrays; 
 import main.java.Item;
 import main.java.SortAlgos;
@@ -11,21 +16,31 @@ public class AlgoTest {
 	/*Test case 1 vec=[] implemented, covers node,condition,branch */
 	@Test(expected=NullPointerException.class)
 	public void testSequenceOne() {
-	/*SortAlgos sortAlgos=new SortAlgos();
-		sortAlgos.bubbleSort(null);
-		sortAlgos.selectionSort(null); */
+	
 		SortDemoData sortDemoData=new SortDemoData();
 		sortDemoData.myArray=null;
-		sortDemoData.runAlgo(0);
+		SortAlgos.bubbleSort(sortDemoData.myArray);
+		SortAlgos.insertionSort(sortDemoData.myArray);
+		SortAlgos.selectionSort(sortDemoData.myArray);
+		SortAlgos.mergeSort(sortDemoData.myArray);
+		SortAlgos.quickSort(sortDemoData.myArray);
+		SortAlgos.heapSort(sortDemoData.myArray);
+		Assert.fail();
+	/*	sortDemoData.runAlgo(0);
+		
 		sortDemoData.runAlgo(1);
-		sortDemoData.runAlgo(2);
-		sortDemoData.runAlgo(3);
-		sortDemoData.runAlgo(4);
-		sortDemoData.runAlgo(5);
 		assertTrue(sortDemoData.myArray==null);
+		sortDemoData.runAlgo(2);
+		assertTrue(sortDemoData.myArray==null);
+		sortDemoData.runAlgo(3);
+		assertTrue(sortDemoData.myArray==null);
+		sortDemoData.runAlgo(4);
+		assertTrue(sortDemoData.myArray==null);
+		sortDemoData.runAlgo(5);
+		assertTrue(sortDemoData.myArray==null); */
 		
 		}
-	/*Test case 2, vec=[9,8,7,10] implemented, covers node,condition,branch*/
+	/*Test case 2, vec=[10,9,8,7,11,12] implemented, covers node,condition,branch*/
 	@Test
 	public void testSequenceTwoBubble() {
 		Item key1=new Item(10);

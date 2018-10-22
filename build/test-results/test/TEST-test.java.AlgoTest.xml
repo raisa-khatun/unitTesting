@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.java.AlgoTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-10-21T20:23:06" hostname="raisa-PC" time="0.015">
+<testsuite name="test.java.AlgoTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-10-22T03:50:50" hostname="raisa-PC" time="0.028">
   <properties/>
-  <testcase name="testSequenceTwoInsertion" classname="test.java.AlgoTest" time="0.012"/>
+  <testcase name="testSequenceTwoInsertion" classname="test.java.AlgoTest" time="0.019"/>
   <testcase name="testSequenceTwoMerge" classname="test.java.AlgoTest" time="0.001"/>
-  <testcase name="testSequenceTwoQuick" classname="test.java.AlgoTest" time="0.0"/>
-  <testcase name="testSequenceOne" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="testSequenceTwoQuick" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="testSequenceOne" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testSequenceTwoSelection" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testSequenceTwoBubble" classname="test.java.AlgoTest" time="0.001"/>
   <testcase name="testSequenceTwoHeap" classname="test.java.AlgoTest" time="0.0"/>
