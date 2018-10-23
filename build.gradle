@@ -1,5 +1,7 @@
 apply plugin: 'application'
 apply plugin: 'jacoco'
+apply plugin: "java"
+sourceCompatibility = 1.8
 
 
 mainClassName = 'main.java.Main'
