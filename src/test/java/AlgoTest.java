@@ -16,7 +16,6 @@ public class AlgoTest {
 	/*Test case 1 vec=[] implemented, covers node,condition,branch */
 	@Test(expected=NullPointerException.class)
 	public void testSequenceOne() {
-	
 		SortDemoData sortDemoData=new SortDemoData();
 		sortDemoData.myArray=null;
 		SortAlgos.bubbleSort(sortDemoData.myArray);
